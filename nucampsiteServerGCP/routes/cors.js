@@ -1,6 +1,6 @@
 const cors = require('cors');
 
-const whitelist = ['http://localhost:3000', 'https://localhost:3443'];
+const whitelist = ['http://localhost:3000', 'https://localhost:3443', 'https://nucampsite-client-michael.web.app'];
 const corsOptionsDelegate = (req, callback) => {
     let corsOptions;
     console.log('request header origin:', req.header('Origin'));
